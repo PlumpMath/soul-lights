@@ -1,0 +1,72 @@
+
+.player { 
+    position: relative;
+}
+.videoPlayer{
+    width: 100%;
+}
+.playing{
+    margin-bottom: 40px;
+}
+.portadaSmall{
+    width: 95%; 
+    height:95%;
+}
+#nav ul li a {
+    font-family: fuenteAux1;
+}
+.imgCarousel{
+    width: 1100px;
+    height: 650px;
+}
+/*importar tipografia*/
+@font-face {
+    font-family: "fuenteAux1";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("fonts/g.ttf") format("truetype");
+}
+
+/*discografia*/
+/*.borde{
+    border: solid #ffffff;
+}*/
+#portadas{
+    width: 100%;
+    height: 100%;
+}
+#cdActual{
+    margin: .5%;
+    width: 98.3%;
+    height: 415px;
+}
+#cdActual img{
+    width: 540px;
+    height: 400px;
+}
+#listaCds{
+    width: 99%;
+    height: 95%;
+    margin: .5%;
+    margin-top: 1%;
+}
+#listaCds td img{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height:80px;
+}
+#listaCds td h6{
+    text-align: center;
+}
+
+
+#listaCanciones{
+    border-top: none;
+    margin-top: 5%;
+}
+#listaCanciones tr{
+    cursor: pointer;
+}
+
+
